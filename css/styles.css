@@ -89,3 +89,112 @@ body {
   color: #000;
   font-family: "Roboto", sans-serif;
 }
+
+
+/*-----------------Why Choose Us CSS Styles--------------------------------------------------------------------------*/
+.section-why-choose-us {  
+  width: 1440px;
+  height: 1000px;
+  flex-shrink: 0;
+  background-image: url('../images/why-choose-us/why-choose-us-background.png'); /* Adds the background image */
+  background-size: cover; /* Adjusts the image to cover the entire section */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.section-why-choose-us-container{
+  display: flex;
+}
+
+.section-why-choose-us-header-text{
+  color: #68B1FC;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  padding-top: 70px;
+  padding-left: 67px;
+  margin-bottom: 25px;
+}
+
+.section-why-choose-us-title-cards-list{
+  padding: 0px;
+  margin: 25px;
+}
+
+.section-why-choose-us-title-cards-list-item-card{
+  display: flex;
+  width: 910px;
+  align-items: center;
+  flex-shrink: 0;
+  padding-bottom: 25px;
+}
+
+
+
+.section-why-choose-us-title-cards-list-item-card-icon{
+  width: 137px;
+  height: 85px;
+  flex-shrink: 0;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 20px;
+}
+
+.section-why-choose-us-title-cards-list-item-card-title{
+  padding: 0px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-why-choose-us-title-cards-list-item-card-wrapper{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-left: 48px;
+  width: 355px;
+  height: 85px;
+
+  /* padding-left: 48px; */
+  /* padding-right: 0px; */
+
+  padding: 0px;
+
+
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.section-why-choose-us-title-cards-list-item-card-text-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 45px;
+  padding-top: 37px;
+  padding-bottom: 37px;
+  /* margin-bottom: 37px; */
+  /* width: 455px;
+  height: 107px;
+  flex-shrink: 0;
+  padding: 24px; */
+  
+
+  display: flex;
+  width: 466px;
+  height: 105px;
+  padding: 11px 6px 10px 5px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.50);
+}
