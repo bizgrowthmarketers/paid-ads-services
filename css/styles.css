@@ -199,3 +199,316 @@ body {
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.50);
 }
+
+/* -----------------Our Process--------------------------------------------------------------------------------- */
+.section-our-process {
+  width: 100%;
+  height: 88.5rem;
+  background-image: url('../images/our-process/background-image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-our-process-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-our-process-list{
+  padding: 0;
+}
+
+.section-our-process-header-wrapper{
+  display: flex;
+  width: 34.375rem;
+  height: 8.125rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem auto;
+}
+
+.section-our-process-subcontent1-wrapper{
+  display: flex;
+  width: 80.8125rem;
+  padding: 0 2.75rem;
+  align-items: center;
+  gap: 7.875rem;
+  margin: 0 auto;
+}
+
+.section-our-process-header-text{
+  color: #189B90;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.1875rem;
+}
+
+.section-our-process-subcontent1-list{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  width: 80.8125rem;
+  gap: 7.875rem;
+}
+
+.section-our-process-subcontent1-list-item{
+  width: 100%;
+  height: 9.375rem;
+}
+
+.section-our-process-subcontent2-list-item-image{
+  margin: 2rem auto;
+}
+
+.section-our-process-subcontent1-bg-icon {
+  background-image: url('../images/our-process/icon-bg-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.section-ourprocess-subcontent3-wrapper{
+  display: flex;
+  padding: 0.625rem 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.section-ourprocess-subcontent3-step-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 80.8125rem;
+  height: auto;
+  gap: 2.5rem;
+  text-align: center;
+  padding: 0.625rem;
+}
+
+.section-our-process-subcontent3-step-list-item-text{
+  color: #000;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.5625rem;
+  margin-top: 1.5625rem;
+  margin-bottom: 1.5625rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-ourprocess-subcontent3-step-list-item-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-ourprocess-subcontent3-step-list-item-wrapper p{
+  border-radius: 0.25rem;
+  border: 1px solid #68B1FC;
+  background: rgba(255, 255, 255, 0.50);
+  width: 14.625rem;
+  height: 17.5rem;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.375rem;
+  margin-top: 2.1875rem;
+  padding: 1.25rem;
+  text-align: left;
+}
+
+.section-ourprocess-subcontent3-step-list-item-wrapper strong{
+  color: #189B90;
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.375rem;
+}
+
+.section-ourprocess-subcontent4-wrapper{
+  display: flex;
+  padding: 0.625rem 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.section-ourprocess-subcontent4-wrapper img{
+  width: 16rem;
+  height: 24.6875rem;
+  flex-shrink: 0;
+}
+
+.section-ourprocess-cta-button {
+  display: flex;
+  width: 18.75rem;
+  height: 4rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.625rem 3.125rem;
+  background-color: #EE8725;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 1.5625rem;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.section-ourprocess-cta-button:hover {
+  background-color: #82C244;
+  transform: scale(1.1);
+}
+
+.section-ourprocess-cta-button a{
+  color: #FFF;
+  font-family: "Roboto Serif";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/*-----------------Client Success Stories--------------------------------------------------------------------------*/
+
+.client-success-stories {
+  width: 100%;
+  padding: 6rem 12.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.client-success-stories-heading{
+  color: #189B90;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 6.125rem;
+}
+
+.client-success-stories-list-item{
+  margin-top: 6.125rem;
+}
+
+.client {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.938rem;
+  width: 100%;
+}
+
+.client-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+  position: relative;
+}
+
+.client img {
+  object-fit: cover;
+  width: 11.328rem;
+height: 12.5rem;
+flex-shrink: 0;
+}
+
+.client h2 {
+  margin-bottom: 0.625rem;
+  color: #000;
+  font-family: "Tenor Sans";
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 8.625rem;
+}
+
+blockquote {
+  /* display: block; */
+  width: 555px;
+  height: 280px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  position: absolute;
+}
+
+.client-quotation{
+  margin-left: 29.375rem;
+  margin-top: -8.125rem;
+  width: 31.25rem;
+  height: 31.25rem;
+}
+
+.client-success-stories-list-item2{
+  display: flex;
+  margin-top: 1.25rem;
+}
+
+.client-quotation2 img {
+  z-index: 3;
+  position: relative;
+  top: 15%;
+}
+
+.client2{
+  position: relative;
+  top: 1.25rem;
+  right: 5rem;
+}
+
+.client-content2{
+  display: flex;
+  gap: 1.875rem;
+}
+
+.client-content2 img {
+  width: 11.581rem;
+  height: 12.5rem;
+}
+
+.client-title2{
+  top: 1.25rem;
+  margin-top: 8.75rem;
+  color: #000;
+  font-family: "Tenor Sans";
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.client-success-details2{
+  position: absolute;
+  margin-top: 15rem;
+}
+
+
