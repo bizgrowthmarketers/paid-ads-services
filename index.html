@@ -9,27 +9,162 @@
       />
       <link rel="stylesheet" href="https://unpkg.com/normalize.css" />
       <link rel="icon" type="image/svg+xml" href="./images/icons/favicon.png" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet"
-      />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-      <link rel="stylesheet" href="./css/styles.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    /><link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script defer src="./js/typedWords.js"></script>
       <title>Paid Ads</title>
   </head>
   <body>
       <main>
-        <h1>Hello World!</h1>
-        <!-- Header Section by Perci-->
-        <div class="hero-background">
-          <section class="section-hero">
-            <p>section-hero c/o Perci</p>
-          </section>
+      <!-- hero -->
+      <section class="section-hero">
+        <div class="container-hero">
+          <h1 class="section-hero-title">
+            Unleash the Power of Google &<br />
+            Facebook Ads with Business Growth<br />
+            Marketers to
+            <span id="typedElement" class="typed-words"></span><br />
+            with Expert Ad Campaigns
+          </h1>
         </div>
-        <!-- why-google-ads Section by Perci-->
-        <section class="section-why-google-ads">
-          <p>why-google-ads c/o Perci</p>
-        </section>
+        <div class="hero-subsection">
+          <div class="container-subsection">
+            <h2>Are your online advertising efforts falling flat?</h2>
+            <p>
+              Whether you're struggling to get clicks, wasting budget, or simply
+              not seeing the conversions you need, Business Growth Marketers is
+              here to turn things around. We specialize in crafting high-impact
+              Google Ads and Facebook Ads campaigns that deliver real,
+              measurable results. Let us help you turn your ad spend into a
+              growth engine for your business.
+            </p>
+          </div>
+          <button
+            type="button"
+            class="button-consultation hvr-shutter-in-horizontal"
+            onclick="document.getElementById('footer-consultation').scrollIntoView({ behavior: 'smooth' })"
+          >
+            Book a FREE Consultation
+          </button>
+        </div>
+        <div class="laptop">
+          <img src="./images/hero/laptop.webp" alt="picture of a laptop" />
+        </div>
+        <div class="cellphone">
+          <img src="./images/hero/cellphone.webp" alt="man working in a cellphone" />
+        </div>
+      </section>
+      <!-- why -->
+      <section class="section-ads">
+        <div class="swiper pagination">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="ads-container">
+                <div class="description-ads-container">
+                  <h3 class="ads-title">Why Google Ads?</h3>
+                  <h4 class="ads-subtitle">
+                    Google Ads: Reach Customers<br />
+                    When They Need You
+                  </h4>
+                  <p class="ads-detail">
+                    Google Ads is one of the most powerful tools for reaching
+                    potential customers exactly when they're searching for
+                    products or services like yours. But success with Google Ads
+                    isn’t just about bidding on the right keywords.
+                    <span class="colored-details"
+                      >It’s about strategic targeting, compelling ad copy, and
+                      continuous optimization.</span
+                    >
+                  </p>
+                  <ul class="ads-lists">
+                    <li>
+                      <strong>Search Network Ads:</strong> Appear at the top of
+                      Google search results when users are actively searching
+                      for your offerings.
+                    </li>
+                    <li>
+                      <strong>Display Network Ads:</strong> Reach a broader
+                      audience across millions of websites, apps, and videos.
+                    </li>
+                    <li>
+                      <strong>Shopping Ads:</strong> Showcase your products
+                      directly within Google search results, complete with
+                      images and prices.
+                    </li>
+                    <li>
+                      <strong>Remarketing Ads:</strong> Re-engage users who have
+                      visited your site but didn’t convert, bringing them back
+                      to complete their purchase.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="ads-container">
+                <div class="description-ads-container">
+                  <h3 class="ads-title">Why Facebook Ads?</h3>
+                  <h4 class="ads-subtitle">
+                    Facebook Ads: Engage & Convert on<br />
+                    the World's Largest Social Platform
+                  </h4>
+                  <p class="ads-detail">
+                    Facebook Ads offer
+                    <span class="colored-details"
+                      >unparalleled targeting options</span
+                    >, allowing you to reach your audience based on
+                    demographics, interests, behaviors, and more. With Facebook,
+                    you can connect with potential customers in a more personal
+                    and engaging way.
+                  </p>
+                  <ul class="ads-lists">
+                    <li>
+                      <strong>News Feed Ads:</strong> Catch the eye of your
+                      audience as they scroll through their feeds with
+                      attention-grabbing visuals and messaging.
+                    </li>
+                    <li>
+                      <strong>Video Ads:</strong> Tell your brand’s story
+                      through compelling video content that resonates with your
+                      audience.
+                    </li>
+                    <li>
+                      <strong>Carousel Ads:</strong> Showcase multiple products
+                      or services in a single, interactive ad unit.
+                    </li>
+                    <li>
+                      <strong>Lead Ads:</strong> Simplify the process of
+                      capturing leads with forms directly within Facebook.
+                    </li>
+                    <li>
+                      <strong>Instagram Ads:</strong> Extend your reach to
+                      Instagram, leveraging Facebook’s targeting capabilities to
+                      connect with a highly engaged audience.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pagination-bullets">
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <img
+          src="./images/hero/whyads.webp"
+          alt="group of people viewing in the laptop"
+          loading="lazy"
+        />
+      </section>
         <!-- section-your-struggles-our-solution by Bill-->
         <section class="section-your-struggles-our-solution">
           <p>your-struggles-our-solution c/o Bill</p>
@@ -772,6 +907,8 @@
       </div>
     </footer>
 
+    <script type="module" src="./js/whyads.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="./js/faq.js"></script>
   </body>
   </html>
