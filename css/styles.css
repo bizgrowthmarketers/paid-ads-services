@@ -689,7 +689,9 @@ h1 {
   padding: 0.5rem;
   position: relative;
   margin: 0 auto;
-  width: 15.625rem; /* 250px -> 15.625rem */
+  width: 15.625rem; 
+  /* 250px -> 15.625rem */
+  
   text-align: left;
 }
 
@@ -787,8 +789,10 @@ h1 {
   }
 
   .step-item {
-  width: 13.625rem;
-}
+  /* width: 13.625rem; */
+  max-width: 100%;
+  width: auto;
+  }
 
 
 }
@@ -796,7 +800,12 @@ h1 {
 @media (min-width: 320px) and (max-width: 767px) {
   .google-fb {
     padding-top: 0;
-    padding-bottom: 0.063rem;
+    /* padding-bottom: 0.063rem; */
+    padding-bottom: 8rem;
+    /* padding: 20px; */
+    max-width: 100%;
+    margin: 0 auto;
+    height: 250%;
   }
 
   .gf-pagination-dots {
@@ -832,6 +841,17 @@ h1 {
     top: 2rem;
     margin-bottom: 9.375rem
   }
+
+  .steps-list-container{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .step-item {
+    /* width: 13.625rem; */
+    max-width: 100%;
+    width: auto;
+    }
 
   .step-item:nth-child(odd) {
     margin-bottom: 0;
@@ -1272,6 +1292,13 @@ h1 {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .section-our-process-subcontent1-list {
+    gap: 6rem;
+  }
+
 }
 
 /* Mobile: min-width 320px to max-width 767px */
