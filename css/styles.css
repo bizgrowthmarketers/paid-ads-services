@@ -987,6 +987,13 @@ h1 {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+
+  .section-why-choose-us{
+    /* height: fit-content; */
+    height: 100%;
+    /* height: 1500px; */
+    width: 100%;
+  }
   .section-why-choose-us-header-text {
     font-size: 1.5rem;
     padding-top: 2rem;
@@ -1004,6 +1011,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     margin-left: 0;
+    background-color: #82C244;
   }
 
   .section-why-choose-us-title-cards-list-item-card-icon {
@@ -1263,6 +1271,15 @@ h1 {
 
 /* Mobile: min-width 320px to max-width 767px */
 @media (min-width: 320px) and (max-width: 767px) {
+
+  .section-our-process{
+    /* background-image: none; */
+    /* height: fit-content; */
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+   
+  }
   .section-our-process-subcontent2-list-item-image {
   display: none;
   }
@@ -1272,20 +1289,80 @@ h1 {
   }
 
   .section-our-process-header-wrapper {
-    margin-top: 450px;
+    /* margin-top: 45px; */
+    display: block;
+    margin-bottom: 0;
+    height: 3rem;
+
   }
 
   .section-our-process-subcontent1-list {
     display: none;
   }
 
-  .section-ourprocess-subcontent3-step-list-item-wrapper {
-    
-  }
-  .section-ourprocess-subcontent3-step-list-item-wrapper p {
-    width: 12rem; /* Adjusted width */
-    height: 14rem; /* Adjusted height */
+  .section-our-process-list-item{
+    display: block;
 
+  }
+
+  .section-ourprocess-subcontent3-step-list{
+
+  }
+
+  .section-ourprocess-subcontent3-wrapper{
+    /* width: 100%;
+    height: 100%; */
+  }
+  
+  .section-ourprocess-subcontent3-step-list-item-wrapper {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: auto;
+    width: auto;
+    height: auto;
+    /* width: fit-content; */
+  }
+
+  .section-ourprocess-subcontent3-step-list-item-wrapper p {
+    height: auto;
+    /* width: 25%; */
+    margin: 0 auto;
+    display: block;
+    width: 25%;
+    align-items: center;
+
+   
+    white-space: normal;
+
+  }
+  .section-ourprocess-subcontent3-step-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    gap: 2.5rem;
+    text-align: center;
+    padding: 0.625rem;
+  }
+
+  .section-ourprocess-subcontent3-step-list-item-text{
+    display: block; /* Ensure the element is a block-level element */
+    margin: auto; /* Center the element horizontally */
+    width: fit-content; /* Adjust the width to fit the content */
+    white-space: normal;  font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 1.125rem; 
+
+
+  }
+
+  li.section-ourprocess-subcontent3-step-list-item {
+    width: 98%;
   }
 
   .section-ourprocess-cta-button {
